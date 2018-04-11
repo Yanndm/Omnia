@@ -1,0 +1,64 @@
+.presentationContainer {
+  padding-top: 240px;
+  display: flex;
+  align-items: center;
+}
+
+.firstLetterLogoContainer {
+  margin-left: 200px;
+}
+
+.firstLetterLogo {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  border: 80px solid #50C9C3;
+  position: relative;
+}
+
+.mainImage {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+}
+
+.mainTitle {
+  letter-spacing: 20px;
+  margin-left: 50px;
+  font-family: 'Couture';
+  font-size: 200px;
+  color: #4BBFB9;
+}
+
+.mainTitleSecondLetter {
+  color: #60CDC8;
+}
+
+.mainTitleThirdLetter {
+  color: #90DFDA;
+}
+
+.mainTitleFourthLetter {
+  color: #9FE3DF;
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: -20px;
+}
+
+.mainTextContainer {
+  margin-top: 20px;
+  margin-left: 67px;
+  line-height: 24px;
+  text-align: left;
+  font-family: 'Raleway-Regular';
+}
+
+.boldMainText {
+  font-family: 'Raleway-Bold';
+}

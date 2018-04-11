@@ -1,0 +1,13 @@
+@import "../css/reset.css";
+@import "../css/fonts.css";
+@import "../css/components/header.css";
+@import "../css/components/presentation.css";
+@import "../css/components/help.css";
+@import "../css/components/how.css";
+@import "../css/components/customer.css";
+@import "../css/components/perso.css";
+@import "../css/components/footer.css";
+
+body {
+  overflow-x: hidden;
+}

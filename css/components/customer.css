@@ -1,0 +1,76 @@
+.customerContainer {
+  background-image: url("../../assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 250px;
+  padding-bottom: 300px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.customerContentContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.customerTitleContainer {
+  margin-bottom: 50px;
+}
+
+.customerTitle {
+  font-family: 'Bebas Neue Regular';
+  font-size: 40px;
+  color: #fff;
+}
+
+.customerSecondTitle {
+  font-family: 'Bebas Neue Regular';
+  font-size: 40px;
+  color: #000;
+}
+
+.customerBox {
+  background: #fff;
+  width: 250px;
+  padding: 20px;
+  margin-right: 50px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 17px -3px rgba(69,69,69,0.63);
+  -moz-box-shadow: 0px 5px 17px -3px rgba(69,69,69,0.63);
+  box-shadow: 0px 5px 17px -3px rgba(69,69,69,0.63);
+}
+
+.newCustomerBox {
+  background: #fff;
+  width: 250px;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 17px -3px rgba(69,69,69,0.63);
+  -moz-box-shadow: 0px 5px 17px -3px rgba(69,69,69,0.63);
+  box-shadow: 0px 5px 17px -3px rgba(69,69,69,0.63);
+}
+
+.newCustomerBox:not(:last-child) {
+  margin-right: 50px;
+}
+
+.customerImage {
+  width: 250px;
+  height: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+
+.customerBoxTitle {
+  font-family: 'Raleway-Bold';
+  margin-bottom: 10px;
+}
+
+.customerText {
+  font-family: 'Raleway-Regular';
+  text-align: justify;
+  line-height: 20px;
+}

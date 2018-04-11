@@ -1,0 +1,90 @@
+.howContainer {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  position: relative;
+}
+
+.howTitle {
+  font-family: 'Bebas Neue Regular';
+  font-size: 40px;
+}
+
+.howSecondTitle {
+  font-family: 'Bebas Neue Regular';
+  font-size: 40px;
+  color: #89DAD5;
+}
+
+.contentHowContainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.underContentHowContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 100px;
+}
+
+.howText {
+  width: 500px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: 'Raleway-Regular';
+}
+
+.howUnderText {
+  font-family: 'Raleway-Bold';
+  margin-bottom: 10px;
+}
+
+.etapesContainer {
+  line-height: 25px;
+}
+
+.etapesElement {
+  font-family: 'Raleway-Regular';
+  display: flex;
+  align-items: center;
+}
+
+.mockUpImage {
+  width: 175px;
+}
+
+.mockUpImage:first-child {
+  margin-right: 20px;
+}
+
+.circleBlueOne {
+  width: 250px;
+  height: 250px;
+  border: 80px solid #A0E4E0;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -200px;
+  left: -220px;
+}
+
+.circleBlueTwo {
+  width: 250px;
+  height: 250px;
+  border: 80px solid #A0E4E0;
+  border-radius: 100%;
+  position: absolute;
+  top: 50px;
+  right: -220px;
+}
+
+.circleLi {
+  background: #4FCAC4;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  margin-right: 5px;
+}

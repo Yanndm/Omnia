@@ -1,0 +1,40 @@
+.footerContainer{
+  background-color: #262626;
+  height: 700px;
+  position: relative;
+}
+
+.footerTitle {
+  font-family: 'Bebas Neue';
+  font-size: 81px;
+  color: white;
+}
+
+.footerSpeech {
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  color: #9FE3DF;
+}
+
+.footerCopyright {
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  color: #3B3B3B;
+}
+
+.circlecyan{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border: solid 88px;
+  border-radius: 100%;
+  color: #9FE3DF;
+  left: -250px;
+  top: 85px;
+}
+
+.footerTextContainer{
+  margin-left: 260px;
+  padding-top: 300px;
+  line-height: 80px;
+}
