@@ -1,0 +1,53 @@
+.partnersContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.partnersTitleContainer {
+  margin-bottom: 150px;
+}
+
+.partnersTitle {
+  font-family: 'Bebas Neue Regular';
+  font-size: 40px;
+  color: #89dad5;
+}
+
+.partnersSecondTitle {
+  font-family: 'Bebas Neue Regular';
+  font-size: 40px;
+}
+
+.partnersContentContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.partnersTopContentContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.partnersBottomContentContainer {
+  display: flex;
+  align-items: center;
+}
+
+.partnerImage {
+  width: 150px;
+  filter: grayscale(100%);
+  transition: .5s;
+}
+
+.partnerImage:hover {
+  filter: grayscale(0%);
+}
+
+.partnerBox:not(:last-child) {
+  margin-right: 50px;
+}

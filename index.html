@@ -6,20 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/button.css">
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
+  <script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/BuildTest001.json", {
+      onProgress: UnityProgress
+    });
+  </script>
   <title>Omnia: votre assistant personnel</title>
 </head>
 
 <body>
-  <div class="loading">
+
+  <!-- loader -->
+  <!-- <div class="loading">
     <div class="containerName">
       <p class="name loaderName" data-content="OMNIA">OMNIA</p>
     </div>
-  </div>
+  </div> -->
+  <!-- fin loader -->
+
   <!-- header -->
   <section class="headerContainer">
     <ul class="navigationContainer">
-      <li class="navigationElement is-active"><a href="#">présentation</a></li>
-      <li class="navigationElement"><a href="#">personnaliser</a></li>
+      <li class="navigationElement is-active presentationLink">
+        <a class="pres isActiveColor" href="#presentation">présentation</a>
+        <ul class="popContainer">
+          <li><a class="popElement" href="#help">en quoi puis-je vous aider?</a></li>
+          <div class="separationBottomLine"></div>
+          <li><a class="popElement" href="#how">comment je fonctionne?</a></li>
+          <div class="separationBottomLine"></div>
+          <li><a class="popElement" href="#customer">lisez leurs avis</a></li>
+          <div class="separationBottomLine"></div>
+          <li><a class="popElement" href="#partners">mes partenaires</a></li>
+          <div class="separationBottomLine"></div>
+          <li><a class="popElement" href="#partners">abonnements</a></li>
+        </ul>
+      </li>
+      <li class="navigationElement persoLink"><a class="perso" href="#perso">personnaliser</a></li>
       <li class="navigationElement">
         <div class="separationLine"></div>
       </li>
@@ -31,7 +56,7 @@
   <!-- fin header -->
 
   <!-- presentation -->
-  <section class="presentationContainer">
+  <section class="presentationContainer" id="presentation">
     <div class="firstLetterLogoContainer">
       <div class="firstLetterLogo">
         <div class="mainImageContainer"><img class="mainImage" src="./assets/images/drone.png" alt=""></div>
@@ -50,15 +75,15 @@
   <!-- fin presentation -->
 
   <!-- help -->
-  <section class="helpContainer">
+  <section class="helpContainer" id="help">
     <h2 class="numberTitle">01</h2>
     <div class="helpTitleContainer">
       <h3 class="helpTitle">en quoi puis-je</h3>
       <h3 class="helpSecondTitle">vous aider?</h3>
     </div>
     <div class="helpTextContainer">
-      <p class="helpText">Je peux subvenir à de <span class="boldText">nombreux besoins</span> tels que : attraper un objet, l'amener jusqu'à vous, me déplacer à plusieurs kilomètres de votre domicile pour envoyer une lettre, arroser les plantes de votre jardin, répondre
-        à vos questions, et pleins d'autres services encore !</p>
+      <p class="helpText">Je vous aide dans vos <span class="boldText">tâches quotidiennes</span>. Envoyer votre courrier, arroser vos plantes, récupérer vos commandes, quelle que soit la demande, je me déplace pour vous. Ma technologie me permet de detecter une situation
+        à risque, et de prendre les mesures nécessaires en un rien de temps. Mes priorités sont de préserver votre santé et faciliter votre vie au quotidien.</p>
       <p class="helpQuestionText">Toujours pas convaincu?</p>
     </div>
     <div class="circleBlackOne"></div>
@@ -67,7 +92,7 @@
   <!-- fin help -->
 
   <!-- how -->
-  <section class="howContainer">
+  <section class="howContainer" id="how">
     <h2 class="numberTitle">02</h2>
     <div class="howTitleContainer">
       <h3 class="howTitle">comment</h3>
@@ -101,7 +126,7 @@
   <!-- fin how -->
 
   <!-- customer -->
-  <section class="customerContainer">
+  <section class="customerContainer" id="customer">
     <h2 class="numberTitle">03</h2>
     <div class="customerTitleContainer">
       <h3 class="customerTitle">lisez leurs</h3>
@@ -132,13 +157,92 @@
   </section>
   <!-- fin customer -->
 
-  <!-- perso -->
-  <section class="persoContainer">
+  <!-- partners -->
+  <section class="partnersContainer" id="partners">
     <h2 class="numberTitle">04</h2>
+    <div class="partnersTitleContainer">
+      <h3 class="partnersTitle">mes</h3>
+      <h3 class="partnersSecondTitle">font confiance</h3>
+    </div>
+    <div class="partnersContentContainer">
+      <div class="partnersTopContentContainer">
+        <div class="partnerBox">
+          <img class="partnerImage" src="./assets/images/partner1.png" alt="">
+        </div>
+        <div class="partnerBox">
+          <img class="partnerImage" src="./assets/images/partner2.png" alt="">
+        </div>
+        <div class="partnerBox">
+          <img class="partnerImage" src="./assets/images/partner3.png" alt="">
+        </div>
+        <div class="partnerBox">
+          <img class="partnerImage" src="./assets/images/partner4.png" alt="">
+        </div>
+      </div>
+      <div class="partnersBottomContentContainer">
+        <div class="partnerBox">
+          <img class="partnerImage" src="./assets/images/partner5.jpg" alt="">
+        </div>
+        <div class="partnerBox">
+          <img class="partnerImage" src="./assets/images/partner6.png" alt="">
+        </div>
+        <div class="partnerBox">
+          <img class="partnerImage" src="./assets/images/partner7.jpg" alt="">
+        </div>
+        <div class="partnerBox">
+          <img class="partnerImage" src="./assets/images/partner8.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="circleBlueOne"></div>
+    <div class="circleBlueTwo"></div>
+  </section>
+  <!-- fin partners -->
+
+  <!-- offers -->
+  <section class="offersContainer">
+    <h2 class="numberTitle">05</h2>
+    <div class="offersTitleContainer">
+      <h3 class="offersTitle">mes nouvelles</h3>
+      <h3 class="offersSecondTitle">offres</h3>
+    </div>
+    <div class="offersUnderContainer">
+      <div class="offerBox">
+        <img class="offersImage" src="./assets/images/drone1.png" alt="">
+        <div>
+          <p>Payer en 4 fois</p>
+          <p>sans frais</p>
+          <p>375€ par mois</p>
+        </div>
+      </div>
+      <div class="offerBox">
+        <img class="offersImage" src="./assets/images/drone2.png" alt="">
+        <div>
+          <p>Pack RHINOSHIELD</p>
+          <p>Assurance tranquilité</p>
+          <p>55,99€</p>
+        </div>
+      </div>
+    </div>
+    <div class="circleBlackTwo"></div>
+  </section>
+  <!-- fin offers -->
+
+  <!-- perso -->
+  <section class="persoContainer" id="perso">
+    <h2 class="numberTitle">06</h2>
     <div class="persoTitleContainer">
       <h3 class="persoTitle">personnalise</h3>
       <h3 class="persoSecondTitle">ton drone</h3>
     </div>
+    <!-- <div class="webgl-content">
+      <div id="gameContainer" style="width: 720px; height: 450px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">Omnia.</div>
+      </div>
+    </div> -->
   </section>
   <!-- fin perso -->
 
@@ -147,14 +251,17 @@
     <div class="circlecyan"></div>
     <div class="footerTextContainer">
       <h3 class="footerTitle">omnia</h3>
-      <div class="footerSpeech">votre drone à vous</div>
-      <div class="footerCopyright">copyright&copy;groupe20bachelorweb20</div>
+      <div class="footerSpeech">votre assistant personnel</div>
+      <div class="footerCopyright">tous droits réservés &copy; groupe 20 bachelor web</div>
     </div>
   </footer>
   <!-- fin footer -->
 
+  <a href="#0" class="cd-top js-cd-top cd-top--show cd-top--fade-out">Top</a>
+
 </body>
 <script src="js/main.js" charset="utf-8"></script>
+<script src="js/wow.js" charset="utf-8"></script>
 
 
 </html>

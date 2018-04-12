@@ -57,8 +57,9 @@
 }
 
 .customerImage {
-  width: 250px;
+  width: 100px;
   height: 100px;
+  border-radius: 100%;
   margin-bottom: 20px;
   margin-top: 20px;
   object-fit: cover;

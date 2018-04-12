@@ -1,0 +1,54 @@
+.offersContainer {
+  background-image: url("../../assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 300px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 850px;
+  position: relative;
+}
+
+.offersTitle {
+  font-family: 'Bebas Neue Regular';
+  font-size: 40px;
+  color: white;
+}
+
+.offersSecondTitle {
+  font-family: 'Bebas Neue Regular';
+  font-size: 40px;
+}
+
+.offersUnderContainer {
+  display: flex;
+  margin-top: 100px;
+}
+
+.offerBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.offerBox:first-child {
+  border-right: 1px solid black;
+  padding-right: 100px;
+}
+
+.offerBox:last-child {
+  border-left: 1px solid black;
+  padding-left: 100px;
+}
+
+.offersImage {
+  width: 150px;
+}

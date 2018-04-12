@@ -6,8 +6,19 @@
 @import "../css/components/how.css";
 @import "../css/components/customer.css";
 @import "../css/components/perso.css";
+@import "../css/components/partners.css";
+@import "../css/components/offers.css";
 @import "../css/components/footer.css";
 
 body {
   overflow-x: hidden;
+  background: #F8F8F8;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.webgl-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
