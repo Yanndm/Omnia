@@ -24,12 +24,12 @@
 
 .circlecyan{
   position: absolute;
-  height: 250px;
-  width: 250px;
+  height: 350px;
+  width: 350px;
   border: solid 88px;
   border-radius: 100%;
   color: #9FE3DF;
-  left: -250px;
+  left: -175px;
   top: 85px;
 }
 

@@ -56,21 +56,21 @@
 }
 
 .circleBlackOne {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   border-radius: 100%;
   border: 80px solid black;
   position: absolute;
-  right: -220px;
+  right: -175px;
   top: 50px;
 }
 
 .circleBlackTwo {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   border-radius: 100%;
   border: 80px solid black;
   position: absolute;
-  left: -220px;
+  left: -175px;
   bottom: 50px;
 }

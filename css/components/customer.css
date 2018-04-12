@@ -75,3 +75,32 @@
   text-align: justify;
   line-height: 20px;
 }
+
+.customerNewText {
+  font-family: 'Raleway-Regular';
+  border: 3px;
+  background: #f8f8f8;
+  border-radius: 5px;
+  height: 100px;
+  width: 100%;
+}
+
+.customerButton{
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  background: #4BBFB9;
+  margin-top: 5px;
+  margin-left: 175px;
+  cursor: pointer;
+}
+
+img{
+  margin-top: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+textarea{
+  resize: none;
+}
